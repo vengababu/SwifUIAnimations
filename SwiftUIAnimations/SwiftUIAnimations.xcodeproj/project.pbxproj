@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCA46F0B2CCF6D7A0019B196 /* SwiftUIAnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F0A2CCF6D7A0019B196 /* SwiftUIAnimationsApp.swift */; };
+		BCA46F0D2CCF6D7A0019B196 /* RippleAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F0C2CCF6D7A0019B196 /* RippleAnimationView.swift */; };
+		BCA46F0F2CCF6D7C0019B196 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA46F0E2CCF6D7C0019B196 /* Assets.xcassets */; };
+		BCA46F122CCF6D7C0019B196 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCA46F112CCF6D7C0019B196 /* Preview Assets.xcassets */; };
+		BCA46F192CCF6E020019B196 /* WaveInterferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F182CCF6E020019B196 /* WaveInterferenceView.swift */; };
+		BCA46F1B2CCF6E760019B196 /* MetalBallAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F1A2CCF6E760019B196 /* MetalBallAnimation.swift */; };
+		BCA46F1D2CCF6EA40019B196 /* SpiralGalaxyAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F1C2CCF6EA40019B196 /* SpiralGalaxyAnimation.swift */; };
+		BCA46F1F2CCF6EEA0019B196 /* FireFlySwarnAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F1E2CCF6EEA0019B196 /* FireFlySwarnAnimation.swift */; };
+		BCA46F212CCF6F1F0019B196 /* ThreeDHelixAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F202CCF6F1F0019B196 /* ThreeDHelixAnimation.swift */; };
+		BCA46F232CCF6F530019B196 /* PulsatingOrbAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F222CCF6F530019B196 /* PulsatingOrbAnimation.swift */; };
+		BCA46F252CCF6F790019B196 /* ParticleExplosionAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F242CCF6F790019B196 /* ParticleExplosionAnimation.swift */; };
+		BCA46F272CCF6F9C0019B196 /* FuturisticRippleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F262CCF6F9C0019B196 /* FuturisticRippleAnimation.swift */; };
+		BCA46F292CCF71920019B196 /* ColorfulParticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F282CCF71920019B196 /* ColorfulParticlesView.swift */; };
+		BCA46F2B2CCF71DF0019B196 /* SpinningSquaresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F2A2CCF71DF0019B196 /* SpinningSquaresView.swift */; };
+		BCA46F2F2CCF72EB0019B196 /* ExpandingCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA46F2E2CCF72EB0019B196 /* ExpandingCirclesView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BCA46F072CCF6D7A0019B196 /* SwiftUIAnimations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimations.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCA46F0A2CCF6D7A0019B196 /* SwiftUIAnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationsApp.swift; sourceTree = "<group>"; };
+		BCA46F0C2CCF6D7A0019B196 /* RippleAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RippleAnimationView.swift; sourceTree = "<group>"; };
+		BCA46F0E2CCF6D7C0019B196 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCA46F112CCF6D7C0019B196 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BCA46F182CCF6E020019B196 /* WaveInterferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveInterferenceView.swift; sourceTree = "<group>"; };
+		BCA46F1A2CCF6E760019B196 /* MetalBallAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBallAnimation.swift; sourceTree = "<group>"; };
+		BCA46F1C2CCF6EA40019B196 /* SpiralGalaxyAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralGalaxyAnimation.swift; sourceTree = "<group>"; };
+		BCA46F1E2CCF6EEA0019B196 /* FireFlySwarnAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireFlySwarnAnimation.swift; sourceTree = "<group>"; };
+		BCA46F202CCF6F1F0019B196 /* ThreeDHelixAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeDHelixAnimation.swift; sourceTree = "<group>"; };
+		BCA46F222CCF6F530019B196 /* PulsatingOrbAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulsatingOrbAnimation.swift; sourceTree = "<group>"; };
+		BCA46F242CCF6F790019B196 /* ParticleExplosionAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticleExplosionAnimation.swift; sourceTree = "<group>"; };
+		BCA46F262CCF6F9C0019B196 /* FuturisticRippleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuturisticRippleAnimation.swift; sourceTree = "<group>"; };
+		BCA46F282CCF71920019B196 /* ColorfulParticlesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulParticlesView.swift; sourceTree = "<group>"; };
+		BCA46F2A2CCF71DF0019B196 /* SpinningSquaresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinningSquaresView.swift; sourceTree = "<group>"; };
+		BCA46F2E2CCF72EB0019B196 /* ExpandingCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandingCirclesView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCA46F042CCF6D7A0019B196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCA46EFE2CCF6D7A0019B196 = {
+			isa = PBXGroup;
+			children = (
+				BCA46F092CCF6D7A0019B196 /* SwiftUIAnimations */,
+				BCA46F082CCF6D7A0019B196 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCA46F082CCF6D7A0019B196 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCA46F072CCF6D7A0019B196 /* SwiftUIAnimations.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCA46F092CCF6D7A0019B196 /* SwiftUIAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				BCA46F0A2CCF6D7A0019B196 /* SwiftUIAnimationsApp.swift */,
+				BCA46F0C2CCF6D7A0019B196 /* RippleAnimationView.swift */,
+				BCA46F182CCF6E020019B196 /* WaveInterferenceView.swift */,
+				BCA46F1A2CCF6E760019B196 /* MetalBallAnimation.swift */,
+				BCA46F1C2CCF6EA40019B196 /* SpiralGalaxyAnimation.swift */,
+				BCA46F1E2CCF6EEA0019B196 /* FireFlySwarnAnimation.swift */,
+				BCA46F202CCF6F1F0019B196 /* ThreeDHelixAnimation.swift */,
+				BCA46F222CCF6F530019B196 /* PulsatingOrbAnimation.swift */,
+				BCA46F262CCF6F9C0019B196 /* FuturisticRippleAnimation.swift */,
+				BCA46F242CCF6F790019B196 /* ParticleExplosionAnimation.swift */,
+				BCA46F282CCF71920019B196 /* ColorfulParticlesView.swift */,
+				BCA46F2A2CCF71DF0019B196 /* SpinningSquaresView.swift */,
+				BCA46F2E2CCF72EB0019B196 /* ExpandingCirclesView.swift */,
+				BCA46F0E2CCF6D7C0019B196 /* Assets.xcassets */,
+				BCA46F102CCF6D7C0019B196 /* Preview Content */,
+			);
+			path = SwiftUIAnimations;
+			sourceTree = "<group>";
+		};
+		BCA46F102CCF6D7C0019B196 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BCA46F112CCF6D7C0019B196 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCA46F062CCF6D7A0019B196 /* SwiftUIAnimations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCA46F152CCF6D7C0019B196 /* Build configuration list for PBXNativeTarget "SwiftUIAnimations" */;
+			buildPhases = (
+				BCA46F032CCF6D7A0019B196 /* Sources */,
+				BCA46F042CCF6D7A0019B196 /* Frameworks */,
+				BCA46F052CCF6D7A0019B196 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIAnimations;
+			productName = SwiftUIAnimations;
+			productReference = BCA46F072CCF6D7A0019B196 /* SwiftUIAnimations.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCA46EFF2CCF6D7A0019B196 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					BCA46F062CCF6D7A0019B196 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = BCA46F022CCF6D7A0019B196 /* Build configuration list for PBXProject "SwiftUIAnimations" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCA46EFE2CCF6D7A0019B196;
+			productRefGroup = BCA46F082CCF6D7A0019B196 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCA46F062CCF6D7A0019B196 /* SwiftUIAnimations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCA46F052CCF6D7A0019B196 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA46F122CCF6D7C0019B196 /* Preview Assets.xcassets in Resources */,
+				BCA46F0F2CCF6D7C0019B196 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCA46F032CCF6D7A0019B196 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCA46F252CCF6F790019B196 /* ParticleExplosionAnimation.swift in Sources */,
+				BCA46F2F2CCF72EB0019B196 /* ExpandingCirclesView.swift in Sources */,
+				BCA46F232CCF6F530019B196 /* PulsatingOrbAnimation.swift in Sources */,
+				BCA46F2B2CCF71DF0019B196 /* SpinningSquaresView.swift in Sources */,
+				BCA46F1F2CCF6EEA0019B196 /* FireFlySwarnAnimation.swift in Sources */,
+				BCA46F0D2CCF6D7A0019B196 /* RippleAnimationView.swift in Sources */,
+				BCA46F272CCF6F9C0019B196 /* FuturisticRippleAnimation.swift in Sources */,
+				BCA46F1B2CCF6E760019B196 /* MetalBallAnimation.swift in Sources */,
+				BCA46F292CCF71920019B196 /* ColorfulParticlesView.swift in Sources */,
+				BCA46F192CCF6E020019B196 /* WaveInterferenceView.swift in Sources */,
+				BCA46F1D2CCF6EA40019B196 /* SpiralGalaxyAnimation.swift in Sources */,
+				BCA46F0B2CCF6D7A0019B196 /* SwiftUIAnimationsApp.swift in Sources */,
+				BCA46F212CCF6F1F0019B196 /* ThreeDHelixAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCA46F132CCF6D7C0019B196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCA46F142CCF6D7C0019B196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCA46F162CCF6D7C0019B196 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.swiftui.SwiftUIAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCA46F172CCF6D7C0019B196 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIAnimations/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.swiftui.SwiftUIAnimations;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCA46F022CCF6D7A0019B196 /* Build configuration list for PBXProject "SwiftUIAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA46F132CCF6D7C0019B196 /* Debug */,
+				BCA46F142CCF6D7C0019B196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCA46F152CCF6D7C0019B196 /* Build configuration list for PBXNativeTarget "SwiftUIAnimations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCA46F162CCF6D7C0019B196 /* Debug */,
+				BCA46F172CCF6D7C0019B196 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCA46EFF2CCF6D7A0019B196 /* Project object */;
+}
